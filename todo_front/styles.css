@@ -43,3 +43,35 @@ h1 {
 #addTaskButton:hover {
     background-color: rgba(126, 70, 248, 0.592);
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background: whitesmoke;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    margin-left: 10px;
+    background-color: rgba(50, 48, 187, 0.759);
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(126, 70, 248, 0.592);
+}
