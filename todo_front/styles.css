@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(246, 249, 249);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner {
+    background-color: rgb(210, 229, 246);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(52, 6, 120, 0.592);
+}
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid rgba(34, 1, 90, 0.557);
+    border-radius: 10px;
+}
+#addTaskButton {
+    padding: 10px;
+    background-color: rgba(50, 48, 187, 0.759);
+    color: rgba(0, 0, 0, 0.648);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#addTaskButton:hover {
+    background-color: rgba(126, 70, 248, 0.592);
+}
